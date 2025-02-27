@@ -1,3 +1,10 @@
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+  }
+
 .amarelo {
     background-color: yellow;
     margin: 10px;
@@ -14,14 +21,53 @@
 
 .flex {
     display: flex;
+    background-color: blueviolet;
 }
 
 
 .extender{
-    background-color: red;
     padding-right: 43%;
+}
+
+.extenderLittleDown{
+    padding-bottom: 42%;
 }
 
 .extenderDown{
     padding-bottom: 62%;
+}
+
+.extenderFurtherDown{
+    padding-bottom: 120%;
+}
+
+.pulltoright{
+    margin-left: 50%;
+}
+
+.pullbittoright{
+    margin-left: 41%;
+}
+
+.extenderPlus{
+    padding-right: 160%;
+}
+
+.extenderMinusPlus{
+    padding-right: 128%;
+}
+
+.heightLimiter{
+    height: 53%; /* Altura fixa */
+    flex-grow: 0; /* Impede que cresça */
+    flex-shrink: 0; /* Impede que diminua */
+    align-self: flex-start; /* Evita que o flexbox a estique */
+}
+
+.block{
+    display: block;
+}
+
+.notready{
+    background-color: red;
 }
