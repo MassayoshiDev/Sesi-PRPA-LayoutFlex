@@ -1,49 +1,21 @@
-header{
-    width: 100%;
-    background-color: purple;
-    height: 150px;
-}
-
-body{
-    margin: 0;
-}
-
-header > h1{
-    color: white;
-    margin: 0;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.mainContainer{
-    width: 100%;
-    height: 620px;
-    display: flex;
-    background-color: wheat;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 20px 0px 20px;
-    overflow: hidden;
-}
-
-.bigBox {
-    width: 420px;
-    height: 420px;
-    background-color: blue;
-    padding: 30px;
-}
-
-.miniBox{
+.amarelo {
     background-color: yellow;
-    padding: 50px;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.flex{
+.azul {
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex {
     display: flex;
 }
 
-p{
-    margin: 0;
-    padding: 0;
+
+.extender{
+    background-color: red;
+    padding-right: 100px;
 }
