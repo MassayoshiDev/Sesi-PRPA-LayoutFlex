@@ -8,6 +8,8 @@
     background-color: blue;
     margin: 10px;
     padding: 10px;
+    width: 120px;
+    height: 120px;
 }
 
 .flex {
@@ -17,5 +19,9 @@
 
 .extender{
     background-color: red;
-    padding-right: 100px;
+    padding-right: 43%;
+}
+
+.extenderDown{
+    padding-bottom: 50%;
 }
